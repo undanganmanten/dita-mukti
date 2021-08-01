@@ -835,6 +835,11 @@ img{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+   margin-top: 100px;
+}
+
+.gallery-foto .save-date {
+  margin-bottom: 20px ;
 }
 
 .sorry-protokol{ 
@@ -881,6 +886,8 @@ img{
   color: black;
   padding: 0 50px;
   margin: 20px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
 }
 
 .protokol img{ 
@@ -1356,7 +1363,7 @@ input[type="radio"] {
   }
 
   .sorry p{
-    font-size: 13px !important;
+    font-size: 15px !important;
     line-height: 20px;
     padding: 0 10px;
   }
